@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8809FD0-6271-17ED-10B7-9C7A77C4C66E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.6.1f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_1;UNITY_5_6;UNITY_5;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\EnableButtonDelayStart.cs" />
+    <Compile Include="Assets\FallingPlatformScript.cs" />
+    <Compile Include="Assets\ForceFieldDestroyer.cs" />
+    <Compile Include="Assets\GuardianOrbScript.cs" />
+    <Compile Include="Assets\Guardian_Behaviour.cs" />
+    <Compile Include="Assets\HideTutorialScript.cs" />
+    <Compile Include="Assets\IgnoreRotationShadow.cs" />
+    <Compile Include="Assets\JoystickAndImages\IMGS\ColorLerpIntro.cs" />
+    <Compile Include="Assets\JoystickAndImages\ScriptsAndPrefab\ClampToCircle.cs" />
+    <Compile Include="Assets\JoystickAndImages\ScriptsAndPrefab\CubePickupNewMechanic.cs" />
+    <Compile Include="Assets\JoystickAndImages\ScriptsAndPrefab\HoldButtonScript.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
+    <Compile Include="Assets\JoystickAndImages\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
+    <Compile Include="Assets\LerpHealthColor.cs" />
+    <Compile Include="Assets\PowerUps\PickupScript.cs" />
+    <Compile Include="Assets\ShowJoystickOnTouch.cs" />
+    <Compile Include="Assets\TheTesseract\ADS\InGameAdsButtonFunctionality.cs" />
+    <Compile Include="Assets\TheTesseract\AUDIO\AudioScripts\MusicToggle.cs" />
+    <Compile Include="Assets\TheTesseract\AUDIO\AudioScripts\SoundCheck.cs" />
+    <Compile Include="Assets\TheTesseract\AUDIO\AudioScripts\ToggleButtonCheck.cs" />
+    <Compile Include="Assets\TheTesseract\AUDIO\TurnOnMusicStart.cs" />
+    <Compile Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Scripts\BloomHelper.cs" />
+    <Compile Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Scripts\BloomPro.cs" />
+    <Compile Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Scripts\RenderTextureManager.cs" />
+    <Compile Include="Assets\TheTesseract\ControllerMobileJoystick\Scripts\CnInputSystem\CnInputManager.cs" />
+    <Compile Include="Assets\TheTesseract\ControllerMobileJoystick\Scripts\CnInputSystem\VirtualAxis.cs" />
+    <Compile Include="Assets\TheTesseract\ControllerMobileJoystick\Scripts\CnInputSystem\VirtualButton.cs" />
+    <Compile Include="Assets\TheTesseract\ControllerMobileJoystick\Scripts\Controllers\SimpleJoystick.cs" />
+    <Compile Include="Assets\TheTesseract\ElectricFloor\ElectricFloor.cs" />
+    <Compile Include="Assets\TheTesseract\Enemy\GuardianEnemy\GuardianPatrol.cs" />
+    <Compile Include="Assets\TheTesseract\Enemy\Prefab\FleeAIScript.cs" />
+    <Compile Include="Assets\TheTesseract\GraphicsProfileButtons\BloomButtonCheck.cs" />
+    <Compile Include="Assets\TheTesseract\GraphicsProfileButtons\BloomCheckToggle.cs" />
+    <Compile Include="Assets\TheTesseract\GraphicsProfileButtons\BloomToggle.cs" />
+    <Compile Include="Assets\TheTesseract\GraphicsProfileButtons\PlayerPortalScript.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\DeleteSave\DeleteSaveButton.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Instructions.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\MenuPuzzleStart.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\NextLevelButtonScript.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Resources\DisableRestartButton.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Resources\LevelSelector.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Resources\Levels\MainMenuButtonFunctionality.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Resources\Levels\SceneFader.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Resources\PauseMenu.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Resources\PlayButtonFunctionality.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Resources\RestartCurrentLevelButton.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\Resources\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\TheTesseract\LevelAssets\TextLerpTapToStart.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\Character\CharacterMove.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\Character\Patrol.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\Character\PlayerDataProgress.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\CurrentLevelText.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\DisableParticlesOnLow.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\FollowPlayer.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\LevelScrollLimiter.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\LevelSystems\PortalScript.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\LevelSystems\RestartLevelIfSomethingFalls.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\MovingPlatform.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\PlatformPlayer_script.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\PuzzleSystems\PlatformPuzzleTypeOne.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\PuzzleSystems\StartGravityOnObject.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\ScrollRectSystem.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\StartLevelOnClick.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\Switches\CheckSwitches.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\Switches\SwitchFour.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\Switches\SwitchOne.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\Switches\SwitchThree.cs" />
+    <Compile Include="Assets\TheTesseract\Scripts\Switches\SwitchTwo.cs" />
+    <Compile Include="Assets\TheTesseract\Tutorial\IngameTips\ShowHideTips.cs" />
+    <Compile Include="Assets\TheTesseract\Tutorial\IngameTips\SwitchTips.cs" />
+    <Compile Include="Assets\TheTesseract\Tutorial\IngameTips\TipsDataBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Demo\Reflect-Glossy.shader" />
+    <None Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Demo\Skybox.shader" />
+    <None Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Shaders\BloomUnlitTestShader.shader" />
+    <None Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Shaders\Resources\BloomPro.shader" />
+    <None Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Shaders\Resources\FxPro.shader" />
+    <None Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Shaders\Resources\FxProTap.shader" />
+    <None Include="Assets\TheTesseract\BLOOM\Image Effects\BloomPro\Shaders\Resources\SeparableBlur.cginc" />
+    <None Include="Assets\TheTesseract\BlobShadow\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\TheTesseract\BlobShadow\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\TheTesseract\BlobShadow\Effects\Projectors\Shaders\ProjectorAdditive.shader" />
+    <None Include="Assets\TheTesseract\BlobShadow\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\TheTesseract\BlobShadow\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\TheTesseract\ColorPalettes\SHADERS\ColorVertexShadow.shader" />
+    <None Include="Assets\TheTesseract\Enemy\EnemyLocationTargets\EnemyMaterials\UnlitSingleColorShader.shader" />
+    <None Include="Assets\TheTesseract\LevelBackgrounds\LevelGradientColors\Portal.shader" />
+    <None Include="Assets\TheTesseract\LevelBackgrounds\LevelGradientColors\ShaderPortal.shader" />
+    <None Include="Assets\TheTesseract\Materials\Shaders\Emissive.shader" />
+    <None Include="Assets\TheTesseract\Materials\Shaders\GlowMobile.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
